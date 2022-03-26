@@ -7,7 +7,7 @@ Goal 1: How can we increase engagement?
 
 User journey: There are two major sections
 
-![Alt text](../data/com_wt.png?raw=true "Title")
+![Alt text](../data/comp_wt.png?raw=true "Title")
 
 Success metric for engagement: Total watch time
 
