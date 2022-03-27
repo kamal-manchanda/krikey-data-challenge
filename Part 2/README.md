@@ -62,9 +62,9 @@ For increasing the watch time, we have to first target increasing the CTR.
 
 My recommendation on how we can increase the CTR:
 
-i. Experiment with features like live tiles(Hypothesis - Live tiles have better CTR).\n
-ii. Experiment with order of tiles in different sections. For example, videos that have a higher CTR can be shown ahead of other videos.\n
-iii. We can either use multi-armed bandits or once we get more data from further experimentation, we can decide on the subsequent actions.\n
+i. Experiment with features like live tiles(Hypothesis - Live tiles have better CTR).__
+ii. Experiment with order of tiles in different sections. For example, videos that have a higher CTR can be shown ahead of other videos.__
+iii. We can either use multi-armed bandits or once we get more data from further experimentation, we can decide on the subsequent actions.__
 
 ## Next steps:
 
