@@ -14,7 +14,7 @@ Success metric for engagement:
 ```
 Total watch time
 
-Total watch time = Total number of videos watched x % video watched x average video length
+Total watch time = Total number of videos watched x % video watched x  avg video length
 
 Total number of videos watched could be either from For you/recent page or from Explore Page. For explore page:
 
@@ -51,10 +51,10 @@ How can we increase Engagement?
 
 ## Product recommendations:
 
-Experiment around watch time suggestions for creators
-1. Min and max limit would restrict users from creating new videos
-2. Start with UI changes like showing "Recommended video length", Trimming videos
-3. Once we experiment and get more data, we can improve this with personalized video length recommendations at user level
+For increasing CTR, Experiment tiles:
+1. Experiment with features like live tiles(Hypothesis - Live tiles have better CTR)
+2. Experiment with order of tiles in different sections.
+3. We can either use multi-armed bandits or once we get more data from the experiment, we can decide the action to take
 
 ## Next steps:
 
