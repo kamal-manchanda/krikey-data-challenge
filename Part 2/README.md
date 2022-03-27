@@ -5,22 +5,23 @@
 
 ### Methodology:
 
-Goal: Increase user engagement
+Goal that I have taken: To increase user engagement
 
-User journey: There are two major sections
+User journey: There are two primary ways as to how a user can engage with the app - videos and games. For this analysis, I have focused on engagement through videos based on the data that has been provided.
 
-Success metric for engagement: 
+Success metric that I have considered for engagement: 
 
 ```
 Total watch time
-
-Total watch time = Total number of videos watched x % video watched x  avg video length
-
-Total number of videos watched could be either from For you/recent page or from Explore Page. For explore page:
-
-Total number of videos watched = CTRxVideos Viewed
+Total watch time = Number of users x Number of videos watched/user x % video watched x  avg video length
 ```
 
+Based on the data, I am going after 2 factors from the above equation - 
+
+1. % completion/video
+2. Avg videos watched/user
+
+1. For % completion/video, below is my analysis 
 
 Bins for completion rate
 ```
@@ -31,11 +32,15 @@ Bins for completion rate
 4: 88.2%-100%
 ```
 
+Potential impact:
+
 Distribution of number of videos and completion rate:
 
 ![Alt text](../data/cr_nr.png?raw=true "Title")
 
-Correlation with completion rate:
+~40% of the videos have less than 85% completion/video
+
+Correlation of watch time with completion rate:
 
 ![Alt text](../data/comp_wt.png?raw=true "Title")
 
@@ -48,13 +53,16 @@ How can we increase Engagement?
 1. Showing the relevant content to users => increasing CTR
 2. More personalized content => better completion rate
 
+2. Total number of videos watched could be either from For you/recent page or from Explore Page. For explore page:
+```
+Total number of videos watched = CTRxVideos Viewed
+```
+For increasing the watch time, we have to first target increasing the CTR.
 
-## Product recommendations:
-
-For increasing CTR, Experiment tiles:
-1. Experiment with features like live tiles(Hypothesis - Live tiles have better CTR)
-2. Experiment with order of tiles in different sections.
-3. We can either use multi-armed bandits or once we get more data from the experiment, we can decide the action to take
+My recommendation on how we can increase the CTR:
+i. Experiment with features like live tiles(Hypothesis - Live tiles have better CTR).
+ii. Experiment with order of tiles in different sections. For example, videos that have a higher CTR can be shown ahead of other videos.
+iii. We can either use multi-armed bandits or once we get more data from further experimentation, we can decide on the subsequent actions.
 
 ## Next steps:
 
