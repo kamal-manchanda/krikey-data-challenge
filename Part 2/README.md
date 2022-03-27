@@ -1,7 +1,7 @@
 # krikey-data-challenge
 
 
-Analysis details:
+## Analysis details:
 
 Goal 1: How can we increase engagement?
 
@@ -12,10 +12,10 @@ User journey: There are two major sections
 Success metric for engagement: Total watch time
 
 
-Product recommendations:
+## Product recommendations:
 
 
-Next steps:
+## Next steps:
 
 Post onboarding, a customer has two ways to use the app:
 1. Games
