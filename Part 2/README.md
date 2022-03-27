@@ -61,6 +61,7 @@ Total number of videos watched = CTRxVideos Viewed
 For increasing the watch time, we have to first target increasing the CTR.
 
 My recommendation on how we can increase the CTR:
+
 i. Experiment with features like live tiles(Hypothesis - Live tiles have better CTR).
 ii. Experiment with order of tiles in different sections. For example, videos that have a higher CTR can be shown ahead of other videos.
 iii. We can either use multi-armed bandits or once we get more data from further experimentation, we can decide on the subsequent actions.
