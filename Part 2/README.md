@@ -30,6 +30,13 @@ Correlation with completion rate:
 
 Users with higher completion rate have a higher average watch time
 
+Hypothesis: Higher completion rate results in higher engagement/watch time
+
+How can we increase completion rate?
+
+1. Personalization - I have not explored this part in this project
+2. Finding a sweet spot of video time length
+
 Finding sweet spot for watch time/video:
 
 Bins for watch time
@@ -41,14 +48,7 @@ Bins for watch time
 4: 5.55-7
 ```
 
-Hypothesis: Higher completion rate results in higher engagement/watch time
-
-How can we increase completion rate?
-
-1. Personalization - I have not explored this part in this project
-2. Finding a sweet spot of video time
-
-
+Number of videos vs watch time(per video) bins
 
 ![Alt text](../data/watch_time.png?raw=true "Title")
 
