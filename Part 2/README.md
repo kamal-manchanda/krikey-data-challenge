@@ -39,7 +39,7 @@ Distribution of number of videos and completion rate:
 
 ![Alt text](../data/cr_nr.png?raw=true "Title")
 
-~40% of the videos have less than 85% completion/video
+~40% of the videos have less than 88% avg completion/video
 
 Correlation of watch time with completion rate:
 
@@ -54,6 +54,9 @@ My recommendation on how we can increase the completion rate:
 1. Showing more relevant/personalized content to users:<br />
 	i. based on user item interaction/collaborative filtering<br />
 	ii. based on user's preferences like length of the video, feed type etc<br />
+	
+Limitations:<br />
+1. Since the metric we are trying to improve here is avg video completion, we should make sure other metric like avg video length are not taking a hit, and it is important that total watch time should go up.
 
 #### 2. Total number of videos watched could be either from For you/recent page or from Explore Page. For explore page:
 ```
@@ -66,6 +69,9 @@ My recommendation on how we can increase the CTR:
 i. Experiment with features like live tiles(Hypothesis - Live tiles have better CTR)<br />
 ii. Experiment with order of tiles in different sections. For example, videos that have a higher CTR can be shown ahead of other videos<br />
 iii. We can either use multi-armed bandits or once we get more data from further experimentation, we can decide on the subsequent actions<br />
+
+Limitations:<br />
+1. Since the metric we are trying to improve here is CTR, we should make sure other metrics like %video completion are not taking a hit, and it is important that total watch time should go up.
 
 Other correlations checked(EDA/visualizations in the jupyter notebook):<br />
 a) Favourite feed type vs watch time<br />
@@ -82,7 +88,7 @@ Post onboarding, a customer has two ways to use the app:
 1. Games
 2. Watch/Create Videos
 
-Since primary goal is growth and retention:
+Looking at Krikey's goal of growth and retention, my additional recommendations would be to do an analysis around these factors as well:
 
 1. Retention/Engagement features for gamers - like Daily bonus, Quests
 2. Help users to find new content. In search - show popular categories, trending etc
