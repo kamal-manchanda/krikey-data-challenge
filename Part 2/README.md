@@ -11,6 +11,12 @@ User journey: There are two major sections
 
 Success metric for engagement: Total watch time
 
+Total watch time = Total number of videos watched x % video watched x average video length
+
+Total number of videos watched could be either from For you/recent page or from Explore Page. For explore page:
+
+Total number of videos watched = CTRxVideos Viewed
+
 Bins for completion rate
 ```
 0: 1.45%-23.3%
@@ -34,27 +40,9 @@ Hypothesis: Higher completion rate results in higher engagement/watch time
 
 How can we increase completion rate?
 
-1. Personalization - I have not explored this part in this project
-2. Finding a sweet spot of video time length
+Showing the relevant content to users
 
-Finding sweet spot for watch time/video:
 
-Bins for watch time
-```
-0: 0.1-1.55
-1: 1.55-2.91
-2: 2.91-4.19
-3: 3.91-5.55
-4: 5.55-7
-```
-
-Number of videos vs watch time(per video) bins
-
-![Alt text](../data/watch_time.png?raw=true "Title")
-
-Completion rate for different watch time bins:
-
-![Alt text](../data/wt_cr.png?raw=true "Title")
 
 ## Product recommendations:
 
