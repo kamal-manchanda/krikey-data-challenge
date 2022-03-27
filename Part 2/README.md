@@ -11,6 +11,19 @@ User journey: There are two major sections
 
 Success metric for engagement: Total watch time
 
+Bins for completion rate
+```
+0: 1.45\%-23.3\%
+1: 23.3\%-44.5\%
+2: 44.5\%-66.1\%
+3: 6..1\%-88.2\%
+4: 88.2\%-100\%
+```
+
+Distribution of number of videos and completion rate:
+
+![Alt text](../data/cr_nr.png?raw=true "Title")
+
 Correlation with completion rate:
 
 ![Alt text](../data/comp_wt.png?raw=true "Title")
