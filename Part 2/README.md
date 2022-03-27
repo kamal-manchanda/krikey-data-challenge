@@ -28,6 +28,15 @@ Bins for watch time
 4: 5.55-7
 ```
 
+Hypothesis: Higher completion rate results in higher engagement/watch time
+
+How can we increase completion rate?
+
+1. Personalization - I have not explored this part in this project
+2. Finding a sweet spot of video time
+
+
+
 ![Alt text](../data/watch_time.png?raw=true "Title")
 
 Completion rate for different watch time bins:
@@ -36,6 +45,10 @@ Completion rate for different watch time bins:
 
 ## Product recommendations:
 
+Experiment around watch time suggestions for creators
+1. Min and max limit would restrict users from creating new videos
+2. Start with UI changes like showing "Recommended video length", Trimming videos
+3. Once we experiment and get more data, we can improve this with personalized video length recommendations at user level
 
 ## Next steps:
 
