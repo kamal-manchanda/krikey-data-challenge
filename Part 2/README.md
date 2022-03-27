@@ -51,7 +51,7 @@ Hypothesis: Higher completion rate results in higher engagement/watch time
 
 My recommendation on how we can increase the completion rate:
 
-1. Showing more relevant/personalized content to users:
+1. Showing more relevant/personalized content to users:<br />
 	i. based on user item interaction/collaborative filtering<br />
 	ii. based on user's preferences like length of the video, feed type etc<br />
 
@@ -66,6 +66,15 @@ My recommendation on how we can increase the CTR:
 i. Experiment with features like live tiles(Hypothesis - Live tiles have better CTR)<br />
 ii. Experiment with order of tiles in different sections. For example, videos that have a higher CTR can be shown ahead of other videos<br />
 iii. We can either use multi-armed bandits or once we get more data from further experimentation, we can decide on the subsequent actions<br />
+
+Other correlations tried(in the EDA jupyter notebook):<br />
+a) Favourite feed type vs watch time<br />
+b) Class/User type vs watch time<br />
+c) Avg video length vs watch time<br />
+d) game id vs watch time<br />
+e) country vs watch time<br />
+f) os/client version vs watch time<br />
+g) is ar?/client version vs watch time<br />
 
 ## Next steps:
 
