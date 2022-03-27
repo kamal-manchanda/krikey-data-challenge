@@ -3,14 +3,34 @@
 
 ## Analysis details:
 
-Goal 1: How can we increase engagement?
+### Methodology:
+
+Goal: Increase user engagement
 
 User journey: There are two major sections
 
-![Alt text](../data/comp_wt.png?raw=true "Title")
-
 Success metric for engagement: Total watch time
 
+Correlation with completion rate:
+
+![Alt text](../data/comp_wt.png?raw=true "Title")
+
+Users with higher completion rate have a higher average watch time
+
+Finding sweet spot for watch time/video:
+
+Bins for watch time
+0: 0.1-1.55
+1: 1.55-2.91
+2: 2.91-4.19
+3: 3.91-5.55
+4: 5.55-7
+
+![Alt text](../data/watch_time.png?raw=true "Title")
+
+Completion rate for different watch time bins:
+
+![Alt text](../data/wt_cr.png?raw=true "Title")
 
 ## Product recommendations:
 
