@@ -49,10 +49,11 @@ Users with higher completion rate have a higher average watch time
 
 Hypothesis: Higher completion rate results in higher engagement/watch time
 
-How can we increase Engagement?
+My recommendation on how we can increase the completion rate:
 
-1. Showing the relevant content to users => increasing CTR
-2. More personalized content => better completion rate
+1. Showing more relevant/personalized content to users:
+	i. based on user item interaction/collaborative filtering<br />
+	ii. based on user's preferences like length of the video, feed type etc<br />
 
 #### 2. Total number of videos watched could be either from For you/recent page or from Explore Page. For explore page:
 ```
