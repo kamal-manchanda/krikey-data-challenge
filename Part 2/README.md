@@ -16,3 +16,13 @@ Product recommendations:
 
 
 Next steps:
+
+Post onboarding, a customer has two ways to use the app:
+1. Games
+2. Watch/Create Videos
+
+Since primary goal is growth and retention:
+
+1. Retention/Engagement features for gamers - like Daily bonus, Quests
+2. Help users to find new content. In search - show popular categories, trending etc
+3. Adoption - Since the primary audience for the app is India, regional languages will help in targeting a larger audience
