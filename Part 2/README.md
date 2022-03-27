@@ -67,7 +67,7 @@ i. Experiment with features like live tiles(Hypothesis - Live tiles have better 
 ii. Experiment with order of tiles in different sections. For example, videos that have a higher CTR can be shown ahead of other videos<br />
 iii. We can either use multi-armed bandits or once we get more data from further experimentation, we can decide on the subsequent actions<br />
 
-Other correlations tried(in the EDA jupyter notebook):<br />
+Other correlations checked(EDA/visualizations in the jupyter notebook):<br />
 a) Favourite feed type vs watch time<br />
 b) Class/User type vs watch time<br />
 c) Avg video length vs watch time<br />
