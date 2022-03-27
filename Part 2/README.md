@@ -20,11 +20,13 @@ Users with higher completion rate have a higher average watch time
 Finding sweet spot for watch time/video:
 
 Bins for watch time
+```
 0: 0.1-1.55
 1: 1.55-2.91
 2: 2.91-4.19
 3: 3.91-5.55
 4: 5.55-7
+```
 
 ![Alt text](../data/watch_time.png?raw=true "Title")
 
