@@ -1,6 +1,6 @@
 # Analytics Projects
 
-## 1. Report
+## 1. Reporting
 
 First project could be to track/automate daily reporting of KPIs. This will include
 
