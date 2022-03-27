@@ -1,2 +1,0 @@
-# krikey-data-challenge
-
