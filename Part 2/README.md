@@ -21,6 +21,7 @@ Based on the data, I am going after 2 factors from the above equation -
 1. % completion/video
 2. Avg videos watched/user
 
+
 1. For % completion/video, below is my analysis 
 
 Bins for completion rate
