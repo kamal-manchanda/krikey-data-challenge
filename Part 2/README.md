@@ -9,13 +9,18 @@ Goal: Increase user engagement
 
 User journey: There are two major sections
 
-Success metric for engagement: Total watch time
+Success metric for engagement: 
+
+```
+Total watch time
 
 Total watch time = Total number of videos watched x % video watched x average video length
 
 Total number of videos watched could be either from For you/recent page or from Explore Page. For explore page:
 
 Total number of videos watched = CTRxVideos Viewed
+```
+
 
 Bins for completion rate
 ```
@@ -38,10 +43,10 @@ Users with higher completion rate have a higher average watch time
 
 Hypothesis: Higher completion rate results in higher engagement/watch time
 
-How can we increase completion rate?
+How can we increase Engagement?
 
-Showing the relevant content to users
-
+1. Showing the relevant content to users => increasing CTR
+2. More personalized content => better completion rate
 
 
 ## Product recommendations:
