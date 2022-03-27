@@ -22,7 +22,7 @@ Based on the data, I am going after 2 factors from the above equation -
 2. Avg videos watched/user
 
 
-1. For % completion/video, below is my analysis 
+#### 1. For % completion/video, below is my analysis 
 
 Bins for completion rate
 ```
@@ -54,7 +54,7 @@ How can we increase Engagement?
 1. Showing the relevant content to users => increasing CTR
 2. More personalized content => better completion rate
 
-2. Total number of videos watched could be either from For you/recent page or from Explore Page. For explore page:
+#### 2. Total number of videos watched could be either from For you/recent page or from Explore Page. For explore page:
 ```
 Total number of videos watched = CTRxVideos Viewed
 ```
